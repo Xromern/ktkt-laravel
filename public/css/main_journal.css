@@ -1,0 +1,435 @@
+
+.container-journal {
+    min-height: 80vh;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preLoader {
+    box-shadow: none;
+}
+
+.container-journal-block {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+    border-radius: 2px;
+}
+.container-journal-center{
+
+    width: 850px;
+
+    margin: 0 auto;
+}
+
+.container-journal-block {
+    margin-top: 20px;
+}
+
+.container-journal input {
+    width: 350px;
+}
+
+.container-journal-block .journal-button-teacher-add, .container-journal-block .journal-button-student-add {
+    width: 120px;
+    float: right;
+}
+
+.table-show-teachers .button, .table-show-students .button {
+    display: inline-block;
+    width: 170px;
+}
+
+.container-journal-show-teachers, .container-journal-show-students {
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
+
+.container-journal-show-teachers, .container-journal-show-students {
+    margin-top: 20px;
+
+}
+
+.button {
+
+}
+
+.container-journal input, .container-journal select {
+
+    padding: 0 20px;
+    background: #F2F2F2;
+    line-height: 40px;
+    border-radius: 2px;
+    border: 1px solid #163C94;
+    font-size: 16px;
+    color: #000;
+    transition-duration: .2s;
+    border-bottom: 3px solid #163C94;
+
+}
+
+.container-journal input:focus {
+    transition-duration: .2s;
+}
+
+.show-teacher-code input, .show-student-code input {
+    margin-left: 5px;
+}
+
+.table-show-teachers, .table-show-students {
+    width: 820px;
+}
+
+.add-group-level-1 {
+    width: 100%;
+}
+
+.add-group-level-1 input {
+    width: 100%;
+}
+
+select {
+    margin-top: 10px;
+    width: 500px;
+    height: 42px;
+
+}
+
+.add-group-level-1 .button {
+    display: inline-block;
+    margin-left: 60px;
+    width: 260px;
+}
+
+.container-add-specialty {
+    width: 100%;
+}
+
+.modal-content {
+    width: 600px;
+}
+
+.modal-content .button-add-specialty {
+    width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.modal-add-subject .modal-content, .modal-update-subject .modal-content {
+    width: 800px;
+    height: 550px;
+    overflow-y: auto;
+    overflow-y: scroll;
+}
+
+.modal-update-subject input {
+    width: 470px;
+}
+
+.modal-update-subject .button {
+    width: 250px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.container-table-speciality {
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 300px;
+    padding-left: 5px;
+
+}
+
+.container-table-speciality .button {
+    display: inline-block;
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.button-add-group {
+    margin-top: 10px;
+}
+
+.block-specialty {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.line-specialty {
+
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #163C94;
+
+    /* background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(25, 60, 150, 1) 50%,rgba(0,0,0,0) 100%);*/
+
+}
+.table-show-speciality{
+    width: 550px;
+}
+.line-specialty:first-letter {
+    color: #163C94;
+}
+
+.block-group {
+    width: 48%;
+    height: 120px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    margin-right: 15px;
+    transition-duration: .2s;
+    padding: 10px;
+    color: black;
+}
+
+.block-group:hover {
+    transition-duration: .2s;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 5px 11px 0 #B3B3B3;
+    border: 1px solid #163C94;
+
+    color: black;
+}
+
+.block-group-caption {
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #163C94;;
+}
+.button-add-subject{
+    width: 110px !important;
+    margin-left: 10px;
+    display: inline-block;
+}
+.block-group:hover .block-group-caption {
+    color: #000000;
+}
+
+.block-group-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.block-group-point-average div, .block-group-curator div, .block-group-count-student div {
+
+    color: #163C94;;
+    display: inline;
+    font-weight: bold;
+}
+
+ .button-update-group, .button-delete-group {
+    width: 49.1%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.container-table-students-subject {
+    margin-top: 20px;
+}
+
+.container-table-students-subject .student_ {
+    width: 370px;
+    display: inline-block;
+    min-height: 300px;
+}
+
+.container-table-students-subject .student_ td:nth-child(2) {
+    width: 350px;
+}
+
+.container-table-students-subject .student_ td:nth-child(1) {
+    width: 20px;
+}
+
+.container-table-students-subject .student_select {
+    padding: 0;
+}
+
+.container-table-students-subject .student_ td {
+    border-color: #fff;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.container-table-students-subject .student_no {
+    float: right;
+}
+
+.container-table-students-subject .student_yes tr {
+    background-color: #adffb5;
+}
+
+.container-table-students-subject .student_yes tr:hover {
+    background-color: #ffc9c9;
+}
+
+.container-table-students-subject .student_no tr {
+    background-color: #ffc9c9;
+}
+
+.container-table-students-subject .student_no tr:hover {
+    background-color: #adffb5;
+}
+
+.container-table-students-subject .rewmove-student, .add-student {
+    font-size: 22px;
+}
+
+.modal-add-subject select, .modal-update-subject select {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.modal-add-subject .button, .modal-update-subject .button {
+    width: 100px;
+}
+
+.input-add-subject, .input-update-subject {
+    width: 300px !important;
+}
+
+.block-subject-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-journal-block {
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.table.ver .row:hover {
+    background-color: #c9daff;
+}
+.table.ver .hov-column {
+    background-color: #c9daff;
+}
+
+.table td:hover {
+    background-color: #4970cc !important;
+    color: #fff;
+}
+.journal-table-marks,
+.journal-table-date {
+    cursor: pointer;
+}
+.table .journal-table-date:hover {
+    background-color: #42b6f4 !important;
+    color: #fff;
+}
+ td,
+th {
+
+}
+table {
+    width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff
+}
+.head-journal th:nth-child(1) {
+    width: 20px;
+}
+.head-journal th:nth-child(2) {
+    width: 350px;
+}
+.container-table-subject-journal{
+    margin: 60px auto;
+}
+
+.table-subject-tr select,.table-subject-tr{
+
+    transition:0s;
+}
+.table-subject-tr:hover select,.table-subject-tr:hover{
+    background-color: #c9daff;
+    transition:0s;
+}
+.container-table-subject-journal td,.container-table-subject-journal th{
+    border: 1px solid black;
+
+}
+
+.container-table-subject-journal select {
+    padding: 0;
+    margin: 0;
+    width: 27px;
+    height: 27px;
+    border: none;
+    background: #FFFFFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: 1.15em;
+    text-align-last: center;
+
+}
+.button-show-modal-update-subject{
+    margin-bottom: 10px;
+}
+.container-table-subject-journal select:hover{
+    border: 2px solid #163C94;
+    cursor: pointer;
+}
+.container-table-subject-journal option {
+    background-color: #F2F2F2;
+}
+.table-subject-marks{
+    width: 27px;
+    height: 27px;
+    padding: 0;
+}
+
+.table-subject-number-student{
+    width: 26px;
+    padding: 3px;
+}
+
+.container-table-subject-journal .table-subject-name{
+    width:auto;
+    padding: 3px;
+}
+
+.table-subject-average{
+    padding: 3px;
+}
+
+.table-subject-attestation{
+    background-color:#163c94;
+    color:white;
+    text-align:center;
+}
+.modal-date-subject textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+}
+.subject-modal-block-attestation{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.subject-modal-block-attestation input{
+    width: auto;
+
+}
+.modal-date-subject input[type="date"]{
+height: auto;
+    width: auto;
+    padding: 0;
+    line-height: 1em;
+}
